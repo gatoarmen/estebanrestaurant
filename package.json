@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/gatoarmen/estebanrestaurant#readme",
   "dependencies": {
+    "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
     "gulp-html-beautify": "^1.0.1",
     "gulp-less": "^3.5.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.1.0"
   }
 }
