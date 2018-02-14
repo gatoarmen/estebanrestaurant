@@ -1,0 +1,27 @@
+/* */
+/* global styles */
+body {
+  background-color: #66ffa6;
+}
+h1,
+h2 {
+  text-align: center;
+  font-family: 'Rammetto One', cursive;
+}
+h1 {
+  font-size: 42px;
+}
+li {
+  display: inline-block;
+}
+/* header */
+header li {
+  margin: 0 10px;
+}
+header li:first-of-type {
+  margin-left: 0px;
+}
+label {
+  display: inline-block;
+}
+/* footer styles */

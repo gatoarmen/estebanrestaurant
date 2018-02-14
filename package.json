@@ -1,0 +1,28 @@
+{
+  "name": "estebanrestaurant",
+  "version": "1.0.0",
+  "description": "a fun website for people who like tacos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatoarmen/estebanrestaurant.git"
+  },
+  "keywords": [
+    "tacos",
+    "gulp"
+  ],
+  "author": "esteban",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gatoarmen/estebanrestaurant/issues"
+  },
+  "homepage": "https://github.com/gatoarmen/estebanrestaurant#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-less": "^3.5.0"
+  }
+}

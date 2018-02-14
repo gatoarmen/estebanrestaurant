@@ -1,18 +1,19 @@
 
-/*
-primary: #ff4081
-p-light: #ff79b0
-p-dark: ##c60055
-secondary: #000000 #e67e6;
-s-light: #66ffa6
-s-dark:#00b248
+/* */
 
-*/
+@primary: #ff4081;
+@p-light: #ff79b0;
+@p-dark: #c60055;
+@secondary: #000000;
+@s-light: #66ffa6;
+@s-dark:#00b248;
+
+
 
 /* global styles */
 
 body{
-    background-color: #ff4081;
+    background-color: @s-light;
 }
 
 h1,
@@ -38,6 +39,11 @@ header li {
 header li:first-of-type {
 
     margin-left: 0px;
+}
+
+label {
+
+    display: inline-block
 }
 
 /* footer styles */
